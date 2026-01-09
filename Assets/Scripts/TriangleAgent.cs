@@ -191,4 +191,18 @@ public class TriangleAgent : MonoBehaviour
         lineB.SetPosition(0, transform.position);
         lineB.SetPosition(1, agentB.position);
     }
+
+    // =========================
+    // AUDIO ACCESSORS
+    // =========================
+    public Vector3 Velocity => velocity;
+
+    public float Speed01
+    {
+        get
+        {
+            if (manager == null) return 0f;
+            return Mathf.Clamp01(velocity.magnitude / manager.maxSpeed);
+        }
+    }
 }
