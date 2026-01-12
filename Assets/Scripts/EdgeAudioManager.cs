@@ -81,7 +81,7 @@ public class TriangleEdgeAudio : MonoBehaviour
         float dt = timer;
         timer = 0f;
 
-        float spiral = mgr.spiralActive ? 1f : 0f;
+      //  float spiral = mgr.spiralActive ? 1f : 0f;
 
         foreach (var e in edges)
         {
@@ -106,7 +106,7 @@ public class TriangleEdgeAudio : MonoBehaviour
             e.hum.setParameterByName("Tension", tension);
             e.hum.setParameterByName("RelSpeed", relSpeed01);
             e.hum.setParameterByName("Wobble", wobble);
-            e.hum.setParameterByName("Spiral", spiral);
+         //   e.hum.setParameterByName("Spiral", spiral);
 
             // Spark sur franchissement de seuil (hystérésis simple)
             e.sparkCd -= dt;

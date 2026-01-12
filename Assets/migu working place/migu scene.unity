@@ -269,13 +269,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6d06b465fcd1945bfb4b19283bb20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AgentLoopAudio
-  loopEvent:
+  chordEvent:
     Guid:
       Data1: 2097401570
       Data2: 1269613006
       Data3: 1871519362
       Data4: 138317852
     Path: event:/Eskart
+  noteParam: Note
+  modeParam: Mode
+  chordDegrees: 0000000003000000070000000a000000
   updateInterval: 0.05
 --- !u!1 &432432459
 GameObject:
@@ -350,13 +353,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6d06b465fcd1945bfb4b19283bb20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AgentLoopAudio
-  loopEvent:
+  chordEvent:
     Guid:
       Data1: 2097401570
       Data2: 1269613006
       Data3: 1871519362
       Data4: 138317852
     Path: event:/Eskart
+  noteParam: Note
+  modeParam: Mode
+  chordDegrees: 0000000003000000070000000a000000
   updateInterval: 0.05
 --- !u!1001 &504487669
 PrefabInstance:
@@ -1207,13 +1213,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6d06b465fcd1945bfb4b19283bb20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AgentLoopAudio
-  loopEvent:
+  chordEvent:
     Guid:
       Data1: 2097401570
       Data2: 1269613006
       Data3: 1871519362
       Data4: 138317852
     Path: event:/Eskart
+  noteParam: Note
+  modeParam: Mode
+  chordDegrees: 0000000003000000070000000a000000
   updateInterval: 0.05
 --- !u!1001 &1249283488
 PrefabInstance:
@@ -1305,13 +1314,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6d06b465fcd1945bfb4b19283bb20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AgentLoopAudio
-  loopEvent:
+  chordEvent:
     Guid:
       Data1: 2097401570
       Data2: 1269613006
       Data3: 1871519362
       Data4: 138317852
     Path: event:/Eskart
+  noteParam: Note
+  modeParam: Mode
+  chordDegrees: 0000000003000000070000000a000000
   updateInterval: 0.05
 --- !u!1 &1435356577 stripped
 GameObject:
@@ -1331,13 +1343,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6d06b465fcd1945bfb4b19283bb20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AgentLoopAudio
-  loopEvent:
+  chordEvent:
     Guid:
       Data1: 2097401570
       Data2: 1269613006
       Data3: 1871519362
       Data4: 138317852
     Path: event:/Eskart
+  noteParam: Note
+  modeParam: Mode
+  chordDegrees: 0000000003000000070000000a000000
   updateInterval: 0.05
 --- !u!1 &1462296646 stripped
 GameObject:
@@ -1509,13 +1524,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6d06b465fcd1945bfb4b19283bb20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AgentLoopAudio
-  loopEvent:
+  chordEvent:
     Guid:
       Data1: 2097401570
       Data2: 1269613006
       Data3: 1871519362
       Data4: 138317852
     Path: event:/Eskart
+  noteParam: Note
+  modeParam: Mode
+  chordDegrees: 0000000003000000070000000a000000
   updateInterval: 0.05
 --- !u!114 &1548804149 stripped
 MonoBehaviour:
@@ -1541,13 +1559,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6d06b465fcd1945bfb4b19283bb20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AgentLoopAudio
-  loopEvent:
+  chordEvent:
     Guid:
       Data1: 2097401570
       Data2: 1269613006
       Data3: 1871519362
       Data4: 138317852
     Path: event:/Eskart
+  noteParam: Note
+  modeParam: Mode
+  chordDegrees: 0000000003000000070000000a000000
   updateInterval: 0.05
 --- !u!1 &1575518594 stripped
 GameObject:
@@ -1567,13 +1588,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6d06b465fcd1945bfb4b19283bb20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AgentLoopAudio
-  loopEvent:
+  chordEvent:
     Guid:
       Data1: 2097401570
       Data2: 1269613006
       Data3: 1871519362
       Data4: 138317852
     Path: event:/Eskart
+  noteParam: Note
+  modeParam: Mode
+  chordDegrees: 0000000003000000070000000a000000
   updateInterval: 0.05
 --- !u!1 &1582338550 stripped
 GameObject:
@@ -1593,13 +1617,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6d06b465fcd1945bfb4b19283bb20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AgentLoopAudio
-  loopEvent:
+  chordEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2097401570
+      Data2: 1269613006
+      Data3: 1871519362
+      Data4: 138317852
+    Path: event:/Eskart
+  noteParam: Note
+  modeParam: Mode
+  chordDegrees: 0000000003000000070000000a000000
   updateInterval: 0.05
 --- !u!1001 &1596138397
 PrefabInstance:
@@ -1880,6 +1907,8 @@ MonoBehaviour:
   - {fileID: 447285048}
   - {fileID: 2075067137}
   - {fileID: 88769925}
+  currentMode: 0
+  circlePhase: 0
   minDistance: 0.87
   maxDistance: 4.56
   maxSpeed: 1.55
@@ -1887,8 +1916,9 @@ MonoBehaviour:
   spiralInterval: 30
   spiralDuration: 6
   spiralStrength: 2
-  spiralActive: 0
-  spiralCenter: {x: 0, y: 0, z: 0}
+  circleRadius: 4
+  circleHoldDuration: 2
+  center: {x: 0, y: 0, z: 0}
 --- !u!114 &1676534854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2561,13 +2591,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6d06b465fcd1945bfb4b19283bb20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AgentLoopAudio
-  loopEvent:
+  chordEvent:
     Guid:
       Data1: 2097401570
       Data2: 1269613006
       Data3: 1871519362
       Data4: 138317852
     Path: event:/Eskart
+  noteParam: Note
+  modeParam: Mode
+  chordDegrees: 0000000003000000070000000a000000
   updateInterval: 0.05
 --- !u!114 &1895781890 stripped
 MonoBehaviour:
@@ -2593,13 +2626,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6d06b465fcd1945bfb4b19283bb20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AgentLoopAudio
-  loopEvent:
+  chordEvent:
     Guid:
       Data1: 2097401570
       Data2: 1269613006
       Data3: 1871519362
       Data4: 138317852
     Path: event:/Eskart
+  noteParam: Note
+  modeParam: Mode
+  chordDegrees: 0000000003000000070000000a000000
   updateInterval: 0.05
 --- !u!1001 &1963105454
 PrefabInstance:
@@ -2818,13 +2854,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6d06b465fcd1945bfb4b19283bb20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AgentLoopAudio
-  loopEvent:
+  chordEvent:
     Guid:
       Data1: 2097401570
       Data2: 1269613006
       Data3: 1871519362
       Data4: 138317852
     Path: event:/Eskart
+  noteParam: Note
+  modeParam: Mode
+  chordDegrees: 0000000003000000070000000a000000
   updateInterval: 0.05
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
